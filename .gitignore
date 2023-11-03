@@ -1,0 +1,6 @@
+.env
+__pycache__
+main*.db
+main.db-shm
+main.db-wal
+trxp_venv
