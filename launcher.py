@@ -4,11 +4,6 @@ from os import getenv
 from dotenv import load_dotenv; load_dotenv()
 from bot import Bot
 
-coglist = [
-    'jishaku',
-    'cogs.reminder',
-]
-
 discord.utils.setup_logging()
 
 async def main() -> None:
